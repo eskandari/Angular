@@ -2,18 +2,27 @@
     "use strict";
     angular
         .module("productManagement")
-        .controller("ProductListCtrl", ProductListCtrl);
+        .controller("ProductListCtrl", 
+			["productResource", ProductListCtrl]);
 
-    function ProductListCtrl() {
+    function ProductListCtrl(productResource) {
         var vm = this;
         vm.test = "testi";
-        vm.products =[{"productId":"1",
-			"productName":"Leaf Rak",
-			"productCode":"NGF321",
-			"releaseDate":"March 19, 2009 ",
+	
+	productResource.query(function(data){
+				vm.products = data;
+				});
+
+/*   
+     vm.products =[{"productId":"1",
+			"productName":"Tabriz Rug",
+			"productCode":"Tb1054",
+			"releaseDate":"March 19, 2015 ",
 "imageUrl":"http://www.thefifthwall.biz/gallery_files/gallery/images/TFW%20007.jpg",
-"price":"202"
+"price":"1202"
 }];
+*/
+
         vm.showImage = false;
         vm.toggleImage = function () {
             vm.showImage = !vm.showImage;
