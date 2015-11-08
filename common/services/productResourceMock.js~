@@ -5,6 +5,7 @@
             ["ngMockE2E"]);
 
     app.run(function ($httpBackend) {
+	alert('Yes');
         var products = [{
             "productId": 1,
             "productName": "Tabriz Rug",
@@ -22,11 +23,11 @@
                                     "productName": "Esfehan Rug",
                                     "productCode": "ESRG-87112",
                                     "releaseDate": "November 06, 2015",
-                                    "description": "Leaf rake with 28-inch handle.",
-                                    "cost": 19.00,
-                                    "price": 119.95,
-                                    "category": "gardening",
-                                    "tags": ["leaf", "tool"],
+                                    "description": "Esfehan Rug.",
+                                    "cost": 9999.00,
+                                    "price": 9999.00,
+                                    "category": "furniture",
+                                    "tags": ["rug", "indoor"],
                                     "imageUrl": "http://www.thefifthwall.biz/gallery_files/gallery/images/TFW%20005.jpg"
                                 }];
 

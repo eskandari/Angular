@@ -8,8 +8,8 @@
     function ProductListCtrl(productResource) {
         var vm = this;
         vm.test = "testi";
-	
 	productResource.query(function(data){
+	alert('Yes');
 				vm.products = data;
 				});
 

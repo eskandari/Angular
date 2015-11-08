@@ -11,6 +11,7 @@
         <!-- Library scripts-->
         <script src="js/angular.js"></script>
         <script src="js/angular-resource.js"></script>
+        <script src="js/angular-mocks.js"></script>
 
         <!-- Application Script-->
         <script src="app/app.js"></script>
@@ -18,6 +19,8 @@
         <!-- Services-->
         <script src="common/services/common.services.js"></script>
         <script src="common/services/productResource.js"></script>
+        <script src="common/services/productResource.js"></script>
+productResourceMock.js
 
         <!-- Product Controllers-->
         <script src="app/products/productListCtrl.js"></script>

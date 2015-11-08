@@ -5,6 +5,7 @@
             ["ngMockE2E"]);
 
     app.run(function ($httpBackend) {
+
         var products = [{
             "productId": 1,
             "productName": "Tabriz Rug",
