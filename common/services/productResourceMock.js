@@ -12,7 +12,7 @@
             "releaseDate": "March 19, 2009",
             "description": "Isfahan Rug made in Isfahan.",
             "cost": 9999.99,
-            "price": 1299.99,
+            "price": 10299.99,
             "category": "persian",
             "tags": ["persian rug", "rug"],
             "imageUrl": "images/isfahanRug.jpg"
