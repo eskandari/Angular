@@ -5,30 +5,29 @@
             ["ngMockE2E"]);
 
     app.run(function ($httpBackend) {
-
         var products = [{
             "productId": 1,
-            "productName": "Tabriz Rug",
-            "productCode": "TRRG-0011",
-            "releaseDate": "November 07, 2015",
-            "description": "Tabriz Rug.",
-            "cost": 5999.00,
-            "price": 5999.00,
-            "category": "furniture",
-            "tags": ["rug", "indoor"],
-            "imageUrl": "http://www.thefifthwall.biz/gallery_files/gallery/images/TFW%20007.jpg"
+            "productName": "Esfehan Rug",
+            "productCode": "GDN-0011",
+            "releaseDate": "March 19, 2009",
+            "description": "Isfahan Rug made in Isfahan.",
+            "cost": 9999.99,
+            "price": 1299.99,
+            "category": "persian",
+            "tags": ["persian rug", "rug"],
+            "imageUrl": "images/isfahanRug.jpg"
         }
                                 , {
                                     "productId": 2,
-                                    "productName": "Esfehan Rug",
-                                    "productCode": "ESRG-87112",
-                                    "releaseDate": "November 06, 2015",
-                                    "description": "Esfehan Rug.",
-                                    "cost": 9999.00,
-                                    "price": 9999.00,
-                                    "category": "furniture",
-                                    "tags": ["rug", "indoor"],
-                                    "imageUrl": "http://www.thefifthwall.biz/gallery_files/gallery/images/TFW%20005.jpg"
+                                    "productName": "Tabriz Rug",
+                                    "productCode": "GDN-00112",
+                                    "releaseDate": "March 20, 2009",
+                                    "description": "Tabriz rug hand made in Tabriz city.",
+                                    "cost": 8999.99,
+                                    "price": 10999.99,
+                                    "category": "persian",
+                                    "tags": ["persain rug", "tabriz"],
+                                    "imageUrl": "images/tabrizRug.jpeg"
                                 }];
 
         var productUrl = "/api/products"
@@ -43,7 +42,7 @@
             var id = parameters[length - 1];
 
             if (id>0) {
-                for (var i = 0; i < produc.length; i++) {
+                for (var i = 0; i < products.length; i++) {
                     if (products[i].productId == id) {
                         product = products[i];
                         break;
