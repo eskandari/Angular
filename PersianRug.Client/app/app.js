@@ -5,8 +5,7 @@
             "ui.router",
             "ui.mask",
             "ui.bootstrap",
-            "angularCharts",
-            "productResourceMock"]);
+            "angularCharts"]);
 
 app.config(function ($provide) {
         $provide.decorator("$exceptionHandler",
