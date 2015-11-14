@@ -2,89 +2,111 @@
   {
     "Description": "Persian Rug from Tabriz.",
     "Price": 9999.95,
+    "Cost": 8799.99,
     "ProductCode": "PRT-0011",
     "ProductId": 1,
     "ProductName": "Tabriz Rug 01",
-    "ReleaseDate": "2009-03-19T00:00:00-07:00"
+    "ReleaseDate": "2009-03-19T00:00:00-07:00",
+    "ImageUrl": "images/tabrizRug.jpeg"
   },
   {
     "Description": "Persian Rug from Isfehan",
     "Price": 10199.99,
+    "Cost": 9899.99,
     "ProductCode": "PRI-0023",
     "ProductId": 2,
     "ProductName": "Isfahan Rug 01",
-    "ReleaseDate": "2010-03-18T00:00:00-07:00"
+    "ReleaseDate": "2010-03-18T00:00:00-07:00",
+    "ImageUrl": "images/isfahanRug.jpg"
   },
   {
     "Description": "Persian Rug from Mashhad",
     "Price": 11999.99,
+    "Cost": 8999.99,
     "ProductCode": "PRM-0035",
     "ProductId": 3,
     "ProductName": "Mashhad Rug 01",
-    "ReleaseDate": "2012-03-18T00:00:00-07:00"
+    "ReleaseDate": "2012-03-18T00:00:00-07:00",
+    "ImageUrl": "images/mashadRug.jpg"
   },
   {
     "Description": "Persian Rug from Kashan",
     "Price": 6999.99,
+    "Cost": 5999.99,
     "ProductCode": "PRK-0067",
     "ProductId": 4,
     "ProductName": "Kashan Rug 01",
-    "ReleaseDate": "2013-03-22T00:00:00-07:00"
+    "ReleaseDate": "2013-03-22T00:00:00-07:00",
+    "ImageUrl": "images/kashanRug.jpg"
   },
   {
     "Description": "Persian Rug from Tabriz",
-    "Price": 8.99,
+    "Price": 1288.99,
+    "Cost": 899.99,
     "ProductCode": "PRT-0048",
     "ProductId": 5,
     "ProductName": "Tabriz Rug 01",
-    "ReleaseDate": "2013-05-21T00:00:00-07:00"
+    "ReleaseDate": "2013-05-21T00:00:00-07:00",
+    "ImageUrl": "images/tabrizRug.jpeg"
   },
   {
     "Description": "Persian Rug from Isfahan",
     "Price": 1662.99,
+    "Cost": 1299.99,
     "ProductCode": "PRI-0045",
     "ProductId": 6,
     "ProductName": "Isfahan Rug 02",
-    "ReleaseDate": "2013-05-15T00:00:00-07:00"
+    "ReleaseDate": "2013-05-15T00:00:00-07:00",
+    "ImageUrl": "images/isfahanRug.jpg"
   },
   {
     "Description": "Persian Rug from Mashhad",
     "Price": 1655.29,
+    "Cost": 1399.99,
     "ProductCode": "PRM-0006",
     "ProductId": 7,
     "ProductName": "Mashhad Rug 02",
-    "ReleaseDate": "2008-05-01T00:00:00-07:00"
+    "ReleaseDate": "2008-05-01T00:00:00-07:00",
+    "ImageUrl": "images/mashadRug.jpg"
   },
   {
     "Description": "Persian Rug from Kashan",
     "Price": 1881.55,
+    "Cost": 1599.99,
     "ProductCode": "PRK-0022",
     "ProductId": 8,
     "ProductName": "Kashan Rug 02",
-    "ReleaseDate": "2009-05-15T00:00:00-07:00"
+    "ReleaseDate": "2009-05-15T00:00:00-07:00",
+    "ImageUrl": "images/kashanRug.jpg"
   },
   {
     "Description": "Persian Rug from Tabriz",
     "Price": 1233.95,
+    "Cost": 999.99,
     "ProductCode": "PRT-0045",
     "ProductId": 9,
     "ProductName": "Tabriz Rug 03",
-    "ReleaseDate": "2009-06-15T00:00:00-07:00"
+    "ReleaseDate": "2009-06-15T00:00:00-07:00",
+    "ImageUrl": "images/tabrizRug.jpeg"
   },
   {
     "Description": "Persian Rug from Isfahan",
-    "Price": 3435.95,
+    "Price": 3435.99,
+    "Cost": 3199.99,
     "ProductCode": "PRI-0042",
     "ProductId": 10,
     "ProductName": "Isfahan Rug 03",
-    "ReleaseDate": "2002-10-15T00:00:00-07:00"
+    "ReleaseDate": "2002-10-15T00:00:00-07:00",
+    "ImageUrl": "images/isfahanRug.jpg"
   },
   {
     "Description": "Persian Rug from Mashhad",
-    "Price": 3440.0,
+    "Price": 3999.99,
+    "Cost": 2999.99,
     "ProductCode": "PRM-123456",
     "ProductId": 11,
     "ProductName": "Mashhad rug 03",
-    "ReleaseDate": "2015-03-10T16:55:08.535279-07:00"
+    "ReleaseDate": "2015-03-10T16:55:08.535279-07:00",
+    "ImageUrl": "images/mashadRug.jpg"
   }
 ]

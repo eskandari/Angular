@@ -3,12 +3,27 @@
     angular
         .module("productManagement")
         .controller("ProductListCtrl",
-                    ["productResource",
+                    ["$state","productResource",
                         ProductListCtrl]);
 
-    function ProductListCtrl(productResource) {
+    function ProductListCtrl($state, productResource) {
         var vm = this;
         vm.searchCriteria = "PRI";
+        vm.sort = function (sortColumn) {
+            if (vm.sortDirection == " desc") {
+                vm.sortDirection = " asc";
+            }
+            else {
+                vm.sortDirection = " desc";
+            }
+            vm.sortProperty = sortColumn;
+            productResource.query({$orderby: vm.sortProperty + vm.sortDirection }, function (data) {
+                vm.products = data;
+            });
+        }
+        vm.sortProperty = "ProductName";
+        vm.sortDirection = " desc";
+
         //1.Sample one
         //productResource.query({search:vm.searchCriteria}, function(data) {
 
@@ -18,8 +33,11 @@
         //     " or  contains(ProductName, '" + vm.searchCriteria + "')" ,
         //     $orderby: vm.sortProperty + " " + vm.sortDirection
         //}, function(data) {
+        
+        //3.
+        //productResource.query({ $filter: "contains(ProductCode,'PRI')", $orderby: vm.sortProperty + vm.sortDirection }, function (data) {
 
-        productResource.query({$filter:"contains(ProductCode,'PRI')",$skip:1, $top:3}, function (data) {
+        productResource.query({ $orderby: vm.sortProperty + vm.sortDirection }, function (data) {
             vm.products = data;
         });
         vm.showImage = false;

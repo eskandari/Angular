@@ -13,6 +13,6 @@ namespace APM.WebAPI.Models
         public int ProductId { get; set; }
         public string ProductName { get; set; }
         public DateTime ReleaseDate { get; set; }
-
+        public string ImageUrl { get; set; }
     }
 }
