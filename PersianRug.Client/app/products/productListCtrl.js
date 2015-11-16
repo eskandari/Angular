@@ -9,6 +9,7 @@
     function ProductListCtrl($state, productResource) {
         var vm = this;
         vm.searchCriteria = "PRI";
+        vm.searchTerm = "";
         vm.sort = function (sortColumn) {
             if (vm.sortDirection == " desc") {
                 vm.sortDirection = " asc";
@@ -40,10 +41,19 @@
         productResource.query({ $orderby: vm.sortProperty + vm.sortDirection }, function (data) {
             vm.products = data;
         });
+
         vm.showImage = false;
 
-        vm.toggleImage = function() {
+        vm.toggleImage = function () {
             vm.showImage = !vm.showImage;
+        };
+
+        vm.search = function (searchTerm) {
+            productResource.query({ $filter: "contains(ProductName, '" + vm.searchTerm + "')", $orderby: vm.sortProperty + vm.sortDirection }, function (data) {
+                vm.products = data;
+            });
+
         }
+
     }
 }());

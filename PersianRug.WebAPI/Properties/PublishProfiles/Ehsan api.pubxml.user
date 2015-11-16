@@ -10,7 +10,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="App_Data/product.json">
-      <publishTime>11/09/2015 21:30:49</publishTime>
+      <publishTime>11/14/2015 09:47:32</publishTime>
     </File>
     <File Include="Areas/HelpPage/HelpPage.css">
       <publishTime>11/09/2015 20:06:27</publishTime>
@@ -78,6 +78,69 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>11/09/2015 15:33:49</publishTime>
     </File>
+    <File Include="bin/de/Microsoft.OData.Core.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.OData.Edm.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Spatial.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.OData.Core.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.OData.Edm.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Spatial.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.OData.Core.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.OData.Edm.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Spatial.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.OData.Core.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.OData.Edm.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Spatial.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.OData.Core.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.OData.Edm.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Spatial.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.OData.Core.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.OData.Edm.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Spatial.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/Microsoft.OData.Core.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/Microsoft.OData.Edm.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Spatial.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>11/09/2015 15:33:43</publishTime>
     </File>
@@ -85,7 +148,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/09/2015 20:05:32</publishTime>
     </File>
     <File Include="bin/PersianRug.WebAPI.dll">
-      <publishTime>11/09/2015 21:51:54</publishTime>
+      <publishTime>11/15/2015 21:40:23</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.OData.Core.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.OData.Edm.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Spatial.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>11/09/2015 20:05:33</publishTime>
@@ -108,6 +180,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/System.Web.Mvc.dll">
       <publishTime>11/09/2015 20:06:07</publishTime>
     </File>
+    <File Include="bin/System.Web.OData.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
     <File Include="bin/System.Web.Optimization.dll">
       <publishTime>11/09/2015 15:33:42</publishTime>
     </File>
@@ -125,6 +200,24 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>11/09/2015 15:33:49</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.OData.Core.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.OData.Edm.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Spatial.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.OData.Core.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.OData.Edm.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Spatial.resources.dll">
+      <publishTime>11/12/2015 21:49:39</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
       <publishTime>11/09/2015 15:33:31</publishTime>
@@ -154,7 +247,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/09/2015 15:33:27</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>11/09/2015 20:06:37</publishTime>
+      <publishTime>11/12/2015 21:49:45</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>11/09/2015 15:33:31</publishTime>
@@ -199,7 +292,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/09/2015 15:33:27</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/09/2015 21:51:54</publishTime>
+      <publishTime>11/15/2015 21:40:32</publishTime>
     </File>
   </ItemGroup>
 </Project>
