@@ -18,9 +18,14 @@
                 vm.sortDirection = " desc";
             }
             vm.sortProperty = sortColumn;
-            productResource.query({$orderby: vm.sortProperty + vm.sortDirection }, function (data) {
-                vm.products = data;
-            });
+
+            if (vm.searchTerm.length > 0) {
+                vm.search(vm.searchTerm);
+            }
+            else {
+                vm.search('');
+            }
+
         }
         vm.sortProperty = "ProductName";
         vm.sortDirection = " desc";
@@ -49,7 +54,7 @@
         };
 
         vm.search = function (searchTerm) {
-            productResource.query({ $filter: "contains(ProductName, '" + vm.searchTerm + "')", $orderby: vm.sortProperty + vm.sortDirection }, function (data) {
+            productResource.query({ $filter: "contains(tolower(ProductName), tolower('" + vm.searchTerm + "'))", $orderby: vm.sortProperty + vm.sortDirection }, function (data) {
                 vm.products = data;
             });
 
